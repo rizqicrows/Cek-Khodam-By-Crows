@@ -11,7 +11,7 @@ function cekKhodam(event) {
         const randomStatus = Math.floor(Math.random() * status.length);
         if (randomStatus === 0) {
             let khodam = [
-                'Tobrut',
+                'Bus Tayo',
                 'Sempol Ayam',
                 'Teh Botol',
                 'Mimi Peri',
@@ -36,7 +36,8 @@ function cekKhodam(event) {
                 'Panjang x Lebar',
                 'Sengkuni',
                 'Naga Imut',
-                'Tuna Mayo'
+                'Tuna Mayo',
+                'Nyi Roro Kidal'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);
