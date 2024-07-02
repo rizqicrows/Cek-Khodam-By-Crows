@@ -45,7 +45,9 @@ function cekKhodam(event) {
                 'Ikan Nemo',
                 'Tuyul Mohawk',
                 'Rengginang',
-                'Lalat Ijo'
+                'Lalat Ijo',
+                'Pecel Lele',
+                'Kucing Pincang'
             ];
             const random = Math.floor(Math.random() * khodam.length);
             $('#result').html(`${nama.toUpperCase()} - Khodam Kamu (${khodam[random]})`);
